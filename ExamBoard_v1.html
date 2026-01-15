@@ -56,13 +56,13 @@
         // --- 設定資料 ---
         // 完整的時間表
         const SCHEDULE = [
-            { type: 'break', start: '08:30', end: '08:40', label: '準備' },
-            { type: 'exam',  start: '08:40', end: '09:20', label: '第一節' },
-            { type: 'break', start: '09:20', end: '09:30', label: '下課' },
-            { type: 'exam',  start: '09:30', end: '10:10', label: '第二節' },
-            { type: 'break', start: '10:10', end: '10:30', label: '下課 (大)' },
-            { type: 'exam',  start: '10:30', end: '11:10', label: '第三節' },
-            { type: 'break', start: '11:10', end: '11:20', label: '收卷' }
+            { type: 'break', start: '08:20', end: '09:05', label: '自習' },
+            { type: 'exam',  start: '09:15', end: '10:00', label: '考英語' },
+            { type: 'break', start: '10:10', end: '10:55', label: '自習' },
+            { type: 'exam',  start: '11:05', end: '11:50', label: '考自然' },
+            { type: 'break', start: '13:00', end: '13:45', label: '自習' },
+            { type: 'exam',  start: '13:55', end: '14:40', label: '自習' },
+            { type: 'break', start: '14:55', end: '15:40', label: '考國文' }
         ];
 
         // 僅提取考試時段供 A 區顯示使用
@@ -71,7 +71,7 @@
         const EXAM_MESSAGES = [
             "考卷記得寫上班級姓名座號",
             "有問題舉手問老師，需要撿東西請監考老師幫忙",
-            "不會寫的題目跳過寫會的題目",
+            "不會寫的題目跳,過寫會的題目",
             "耐心、細心、小心",
             "考卷有不會的問題等出題老師來了再問",
             "不要轉頭玩東西，寫完多檢查",
@@ -83,7 +83,7 @@
             "等監考老師點完再離開座位下課",
             "利用下課準備下個科目與文具用品",
             "提早上廁所喝水",
-            "桌面淨空",
+            "桌面淨空，書包放教室前後",
             "準備考試、收拾位置、坐在位置上"
         ];
 
